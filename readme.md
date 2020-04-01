@@ -69,5 +69,5 @@ Here are a few example shots of what you should be able to view. The gradient bo
 
 ### Version
 
-1.0.2 Initial Setup and testing.
-1.0.3 Update README with screen grabs.
+* 1.0.2 Initial Setup and testing.
+* 1.0.3 Update README with screen grabs.
