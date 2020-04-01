@@ -59,9 +59,17 @@ npm run prod
 
 Here are a few example shots of what you should be able to view. The gradient boxes in the background are updated when the modal is updated.
 
+**Add Colour Gradient**
+
 ![Add Colour Gradient](readme-images/add-color-gradient.png)
 
+**Update Colour Gradient**
+
 ![Update Colour Gradient](readme-images/update-color-gradient.png)
+
+**Colour Gradients**
+
+![Colour Gradients](readme-images/color-gradients.png)
 
 ## License
 
