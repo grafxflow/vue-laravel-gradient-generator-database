@@ -8,7 +8,7 @@ This is an example vuejs + laravel based colour picker database test application
 
 * [1. Required Software](#1-required-software)
 * [2. Setup](#2-setup)
-* [3. Install homebrew and xcode (Mac)](#3-install-homebrew-and-xcode-mac)
+* [3. Example Screengrabs](#3-example-screengrabs)
 
 ## 1. Required Software
 
@@ -55,13 +55,13 @@ or
 npm run prod
 ```
 
-## 3. Example screengrabs
+## 3. Example Screengrabs
 
-Here are a few example shots of what you shoudl be able to view.
+Here are a few example shots of what you should be able to view. The gradient boxes in the background are updated when the modal is updated.
 
-![]()
+![Add Colour Gradient](readme-images/add-color-gradient.png)
 
-![]()
+![Update Colour Gradient](readme-images/update-color-gradient.png)
 
 ## License
 
@@ -69,4 +69,5 @@ Here are a few example shots of what you shoudl be able to view.
 
 ### Version
 
-1.0.2 Intial Setup and testing.
+1.0.2 Initial Setup and testing.
+1.0.3 Update README with screen grabs.
