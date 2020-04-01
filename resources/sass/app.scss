@@ -1,0 +1,100 @@
+// Variables
+@import 'variables';
+
+// Mixins
+@import 'mixins';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $background;
+}
+.info > h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: $text;
+    font-family: "Lato";
+}
+.info > h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: $text;
+    opacity: 0.8;
+    font-weight: 300;
+    font-family: "Lato";
+}
+.container{
+    display: flex;
+    flex-direction: "row";
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.gradient-card {
+    position: relative;
+    height: 230px;
+    width: 200px;
+    margin: 25px;
+    @include box-shadow(-11px, 10px, 16px, rgba(0, 0, 0, 0.16));
+    transition: all 0.2s ease;
+}
+.gradient-card:hover {
+    cursor: pointer;
+    transform: translatey(-15px);
+}
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-info {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0%;
+    left: 0%;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.colour-1, .colour-2, .colour-title {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 10px;
+    color: $neutral-gray;
+    z-index: 1;
+    margin: 7px;
+}
+.card-info .btn {
+    font-size: 11px;
+    margin: 1px 7px;
+    padding: 2px 8px;
+}
+
+.vc-chrome {
+	position: absolute;
+	top: 35px;
+	right: 0;
+	z-index: 9;
+}
+.current-color {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: $background;
+	cursor: pointer;
+}
+
+// Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index';
