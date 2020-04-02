@@ -13,6 +13,7 @@ sites:
     -
         map: localhost.test
         to: /home/vagrant/code/public
+        type: nfs
 databases:
     - laravel
 features:
